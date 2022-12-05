@@ -13,6 +13,13 @@
   overflow-x: auto;
 }
 
+@media (max-width: 600px) {
+  .controlPane {
+    margin-bottom: 0;
+    flex-shrink: 0;
+  }
+}
+
 .title {
   margin: 0;
   /* Optical centering */

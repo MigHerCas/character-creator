@@ -5,3 +5,12 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+
+@media (max-width: 600px) {
+  .maxWidthWrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+}
