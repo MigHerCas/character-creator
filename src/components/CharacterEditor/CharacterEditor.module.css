@@ -18,6 +18,12 @@
   max-width: 65%;
 }
 
+@media (max-width: 1280px) {
+  .header {
+    max-width: 50%;
+  }
+}
+
 .title {
   font-size: 2.5rem;
   font-weight: 600;
@@ -26,9 +32,21 @@
   letter-spacing: -0.5px;
 }
 
+@media (max-width: 1280px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+
 .description {
   font-size: 1.25rem;
   margin: 0;
+}
+
+@media (max-width: 1280px) {
+  .description {
+    font-size: 1rem;
+  }
 }
 
 .characterWrapper {
