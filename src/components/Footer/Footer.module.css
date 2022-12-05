@@ -9,3 +9,10 @@
 .footer > a {
   color: white;
 }
+
+@media (max-width: 600px) {
+  .footer {
+    height: 15%;
+    padding: 24px;
+  }
+}
